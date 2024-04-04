@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+  }
+  .carousel-item{
+    background-size: cover;
+    background-position: center;
+    width: 100vw; /* 100% of the viewport width */
+    height:100vh; /* 100% of the viewport height */
+
+  }
+  .carousel-item .h5{
+    color: white;
+  }
+
+  .p{
+    color: #fff;
+  }
+
+  /* Custom CSS to change text color to white */
+.carousel-caption h5,
+.carousel-caption p {
+  color: white;
+}
